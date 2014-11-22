@@ -39,6 +39,4 @@ public class ViewController {
     return new ModelAndView("redirect:/");
   }
 
-  
-
 }
