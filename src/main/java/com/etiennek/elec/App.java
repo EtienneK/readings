@@ -24,6 +24,9 @@ public class App {
   @Bean
   public Connection getConnection() throws URISyntaxException, SQLException {
     String databaseUrl = System.getenv("DATABASE_URL");
+
+    System.out.println("XXXXXXXXXXXXX " + databaseUrl + " XXXXXXXXXXXXX");
+
     if (databaseUrl == null) {
       return null;
     }
