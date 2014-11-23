@@ -26,3 +26,6 @@ release.properties
 .classpath
 .project
 .settings/
+
+# DBs
+hsql/
